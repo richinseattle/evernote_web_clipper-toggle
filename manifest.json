@@ -1,0 +1,17 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "name": "Click to toggle Evernote Web Clipper"
+   },
+   "description": "Quickly toggle the Evernote Web Clipper Plugin.",
+   "icons": {
+      "16": "icon-grey-green.png"
+   },
+   "manifest_version": 2,
+   "name": "Evernote Web Clipper Toggle",
+   "permissions": [ "management", "notifications" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.0"
+}
